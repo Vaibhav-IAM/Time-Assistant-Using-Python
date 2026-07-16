@@ -4,6 +4,7 @@ hour = int(time.strftime("%H"))
 
 print(timestamp)
 
+#  Check Whether What's time it is
 if hour<12 :
     print("Good Morning Sir")
 elif hour<16 :
